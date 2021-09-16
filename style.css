@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html, body{
+   height: 100%;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(3deg, rgba(2,0,36,1) 0%, rgba(212,170,198,1) 100%);
+    color: #fff;
+    font-family: 'Raleway', sans-serif;  
+    
+}
+.avatar{
+    width: 80px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 20px #fff;
+}
+h1{
+   /* font-family: 'Raleway', sans-serif;*/ 
+    font-weight: 100px;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+h2{
+    font-size: 16px;
+    font-weight: 200;
+}
+h2:hover{
+    color: aqua;
+}
+.profile{
+    text-align: center;
+    margin-top: 20px;
+}
+.social a{
+    font-size: 20px;
+    color: #fff;
+}
+.social a:hover{
+    color: rgb(74, 159, 216);
+ }
+.social{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;/*so usa quando tem o display flex*/
+    margin: 20px 0;
+}
+
+.links-list{
+    justify-content: center;
+    margin-top: 10px;
+    list-style: none;
+}
+.links-list li{
+    margin: 10px 20px;
+    
+}
+.links-list li a{
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(255, 254, 254);
+    font-weight: 500;
+    display: block;
+    
+}
+.links-list a:hover{
+    color: aqua;
+    background-color: black;
+}
+span{
+    color: blueviolet;
+    font-weight: 600;
+}
+span:hover{
+    color: #fff;
+}
+#zap:hover{
+ color: chartreuse;
+}
+#tube:hover{
+ color:rgb(235, 58, 27);
+}
+#git:hover{
+color: #333;
+   }
+#ig:hover{
+color:rgb(209, 18, 209);
+   }
